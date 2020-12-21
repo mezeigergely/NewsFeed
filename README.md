@@ -3,7 +3,8 @@
 ###### Run:
 
 1. Clone
-2. CMD\cd project folder\php artisan serve
+2. Export dump data (newsfeeddb_dump.sql)
+3. CMD\cd project folder\php artisan serve
 
 ###### Description:
 

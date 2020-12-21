@@ -3,8 +3,17 @@
 ###### Run:
 
 1. Clone
-2. Export dump data (newsfeeddb_dump.sql)
-3. CMD\cd project folder\php artisan serve
+2. Open CMD:
+- cd project folder \ composer install
+- copy .env.example .env
+3. Open .env file and rename Database name (DB_DATABASE) than SAVE
+4. Run XAMPP and start Apache, MySQL
+5. Create Database (newsfeeddb_dump.sql)
+6. cmd \ cd project folder \ php artisan key:generate
+7. cmd \ cd project folder \ php artisan serve
+
+VIDEO Tutorial: How to run Laravel project after downloading from github/gitlab
+https://www.youtube.com/watch?v=D5MZaCmpxvM
 
 ###### Description:
 

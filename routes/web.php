@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::get('/', 'NewsController@index');
+Route::get('/{id}', 'NewsController@get_one');
